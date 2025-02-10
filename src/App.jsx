@@ -1,9 +1,21 @@
 import './App.css'
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+import Header from "./components/Header/Header.jsx"
 
 function App() {
   return (
     <>
-    <h1>This is my Movie Review Project</h1>
+    <div className="App">
+    <Router>
+      <Header />
+      <Routes>
+        <Route index element={<h1>Hello World</h1>}></Route>
+        <Route path="movie/:id" element={<h1>Movie details Page</h1>}></Route>
+        <Route path="movies/:type" element={<h1>Movie List Page</h1>}></Route>
+        <Route path="/*" element={<h1>Error Page</h1>}></Route>
+      </Routes>
+    </Router>
+    </div>
     </>
   )
 }
