@@ -1,6 +1,7 @@
-<<<<<<< HEAD
-This is your local change.
-=======
-This is the change from the remote branch.
->>>>>>> f7f980d
-This is the change from the remote branch.
+Movie Review App
+
+This is Application is very similiar to IMDB in term of business Logic. In this application you will see the proper use of React Router and other React Features also. End Application will look like this --->
+
+![alt text](<Screenshot (872).png>)
+
+![alt text](<Screenshot (871).png>)
